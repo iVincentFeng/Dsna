@@ -33,6 +33,7 @@ namespace Dsna.Algorithms.Sorters
         public void InitializeTest()
         {
             this.sorters.Add("InsertionSorter", new InsertionSorter<int>());
+            this.sorters.Add("BinaryInsertionSorter", new BinaryInsertionSorter<int>());
         }
 
         private void TestSortersWithArray(int[] array, int[] expectedResultArray)
