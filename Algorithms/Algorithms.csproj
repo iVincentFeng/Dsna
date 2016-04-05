@@ -41,9 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\ISelectPivot.cs" />
+    <Compile Include="Shared\UpperBoundPivotSelector.cs" />
+    <Compile Include="Shared\LowerBoundPivotSelector.cs" />
     <Compile Include="Sorters\BinaryInsertionSorter.cs" />
     <Compile Include="Sorters\InsertionSorter.cs" />
     <Compile Include="Sorters\ISort.cs" />
+    <Compile Include="Sorters\QuickSorter.cs" />
     <Compile Include="Sorters\SortersUt.cs" />
   </ItemGroup>
   <ItemGroup>

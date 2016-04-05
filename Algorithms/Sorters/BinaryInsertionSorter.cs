@@ -11,6 +11,7 @@ namespace Dsna.Algorithms.Sorters
                 return;
             }
 
+            // Loop invariant: items in left sub-array are already sorted
             for (int ixToBeSorted = 1; ixToBeSorted < array.Length; ixToBeSorted++)
             {
                 TValue curToBeSorted = array[ixToBeSorted];
