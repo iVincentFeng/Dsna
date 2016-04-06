@@ -37,6 +37,7 @@ namespace Dsna.Algorithms.Sorters
             this.sorters.Add("BinaryInsertionSorter", new BinaryInsertionSorter<int>());
             this.sorters.Add("QuickSorter with LowerBoundPivotSelector", new QuickSorter<int>(new LowerBoundPivotSelector<int>()));
             this.sorters.Add("QuickSorter with UpperBoundPivotSelector", new QuickSorter<int>(new UpperBoundPivotSelector<int>()));
+            this.sorters.Add("MergeSorter", new MergeSorter<int>());
         }
 
         private void TestSortersWithArray(int[] array, int[] expectedResultArray)

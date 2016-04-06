@@ -47,6 +47,7 @@
     <Compile Include="Sorters\BinaryInsertionSorter.cs" />
     <Compile Include="Sorters\InsertionSorter.cs" />
     <Compile Include="Sorters\ISort.cs" />
+    <Compile Include="Sorters\MergeSorter.cs" />
     <Compile Include="Sorters\QuickSorter.cs" />
     <Compile Include="Sorters\SortersUt.cs" />
   </ItemGroup>
