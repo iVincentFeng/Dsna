@@ -2,8 +2,8 @@
 
 namespace Dsna.LeetCode.MatrixRotation
 {
-    [LeetCodeUrl("https://leetcode.com/problems/rotate-image/", false)]
-    public class ClockwiseMatrixRotation<TValue> : IRotateMatrix<TValue> where TValue : IComparable
+    [LeetCodeUrl("https://leetcode.com/problems/rotate-image/", true)]
+    public class AntiClockwiseMatrixRotation<TValue> : IRotateMatrix<TValue> where TValue : IComparable
     {
         public void RotateMatrix(TValue[,] matrix)
         {
@@ -20,19 +20,19 @@ namespace Dsna.LeetCode.MatrixRotation
                 return;
             }
 
-            this.DoVerticalFlip(matrix);
+            this.DoHorizontalFlip(matrix);
             this.DoDiagonalFlip(matrix);
         }
 
-        private void DoVerticalFlip(TValue[,] matrix)
+        private void DoHorizontalFlip(TValue[,] matrix)
         {
             int dimLen = matrix.GetLength(0);
 
-            for (int ixRow = 0; ixRow < dimLen / 2; ixRow++)
+            for (int ixRow = 0; ixRow < dimLen; ixRow++)
             {
-                for (int ixColumn = 0; ixColumn < dimLen; ixColumn++)
+                for (int ixColumn = 0; ixColumn < dimLen / 2; ixColumn++)
                 {
-                    this.Swap(matrix, ixRow, ixColumn, dimLen - ixRow - 1, ixColumn);
+                    this.Swap(matrix, ixRow, ixColumn, ixRow, dimLen - ixColumn - 1);
                 }
             }
         }
