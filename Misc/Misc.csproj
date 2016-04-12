@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StairsClimbing\StairsClimbing.cs" />
     <Compile Include="Fibonacci\FibonacciUt.cs" />
     <Compile Include="Fibonacci\IterativeFibonacci.cs" />
     <Compile Include="Fibonacci\IFibonacci.cs" />
