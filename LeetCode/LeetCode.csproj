@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LeetCodeUrlAttribute.cs" />
+    <Compile Include="IntegerReversal\IntegerReversal.cs" />
+    <Compile Include="IntegerReversal\IntegerReversalUt.cs" />
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotation.cs" />
     <Compile Include="MatrixRotation\ClockwiseMatrixRotation.cs" />
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotationUt.cs" />
