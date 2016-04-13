@@ -37,18 +37,19 @@ namespace Dsna.LeetCode.MinSubArraySumLen
                 return;
             }
 
-            if (actualSum + nums[depth] <= sum)
+            for (uint ix = depth; ix < nums.Length; ix++)
             {
-                path.Push(nums[depth]);
-                actualSum += nums[depth];
+                if (actualSum + nums[ix] <= sum)
+                {
+                    path.Push(nums[ix]);
+                    actualSum += nums[ix];
 
-                this.DoGetMinSubArraySumLen(nums, sum, depth + 1, actualSum, ref minLen, path);
+                    this.DoGetMinSubArraySumLen(nums, sum, ix + 1, actualSum, ref minLen, path);
 
-                path.Pop();
-                actualSum -= nums[depth];
+                    path.Pop();
+                    actualSum -= nums[ix];
+                }
             }
-
-            this.DoGetMinSubArraySumLen(nums, sum, depth + 1, actualSum, ref minLen, path);
         }
     }
 }
