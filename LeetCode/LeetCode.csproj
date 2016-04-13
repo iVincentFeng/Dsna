@@ -47,6 +47,10 @@
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotationUt.cs" />
     <Compile Include="MatrixRotation\IRotateMatrix.cs" />
     <Compile Include="MatrixRotation\ClockwiseMatrixRotationUt.cs" />
+    <Compile Include="MinSubArraySumLen\MinSubArraySumLenWithBacktracking.cs" />
+    <Compile Include="MinSubArraySumLen\IGetMinSubArraySumLen.cs" />
+    <Compile Include="MinSubArraySumLen\MinSubArraySumLenUt.cs" />
+    <Compile Include="MinSubArraySumLen\MinSubArraySumLenWithSlidingWindow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
