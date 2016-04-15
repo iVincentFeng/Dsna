@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayRightRotation\ArrayRightRotation.cs" />
+    <Compile Include="ArrayRightRotation\ArrayRightRotationUt.cs" />
+    <Compile Include="ArrayRightRotation\IRightRotateArray.cs" />
     <Compile Include="IntegerReversal\IntegerReversal.cs" />
     <Compile Include="IntegerReversal\IntegerReversalUt.cs" />
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotation.cs" />
