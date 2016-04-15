@@ -51,6 +51,8 @@
     <Compile Include="MinSubArraySumLen\IGetMinSubArraySumLen.cs" />
     <Compile Include="MinSubArraySumLen\MinSubArraySumLenUt.cs" />
     <Compile Include="MinSubArraySumLen\MinSubArraySumLenWithSlidingWindow.cs" />
+    <Compile Include="PowerOfNumber\PowerOfNumberUt.cs" />
+    <Compile Include="PowerOfNumber\PowerOfNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
