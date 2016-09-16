@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MathematicalExpressionParser\Dijkstra2StackParser.cs" />
+    <Compile Include="MathematicalExpressionParser\MathematicalExpressionParserUt.cs" />
+    <Compile Include="MathematicalExpressionParser\IParseMathematicalExpression.cs" />
     <Compile Include="StairsClimbing\StairsClimbing.cs" />
     <Compile Include="Fibonacci\FibonacciUt.cs" />
     <Compile Include="Fibonacci\IterativeFibonacci.cs" />
