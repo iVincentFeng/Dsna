@@ -40,13 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LeetCodeUrlAttribute.cs" />
+    <Compile Include="ArrayRightRotation\ArrayRightRotation.cs" />
+    <Compile Include="ArrayRightRotation\ArrayRightRotationUt.cs" />
+    <Compile Include="ArrayRightRotation\IRightRotateArray.cs" />
+    <Compile Include="IntegerReversal\IntegerReversal.cs" />
+    <Compile Include="IntegerReversal\IntegerReversalUt.cs" />
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotation.cs" />
     <Compile Include="MatrixRotation\ClockwiseMatrixRotation.cs" />
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotationUt.cs" />
     <Compile Include="MatrixRotation\IRotateMatrix.cs" />
     <Compile Include="MatrixRotation\ClockwiseMatrixRotationUt.cs" />
+    <Compile Include="MinSubArraySumLen\MinSubArraySumLenWithBacktracking.cs" />
+    <Compile Include="MinSubArraySumLen\IGetMinSubArraySumLen.cs" />
+    <Compile Include="MinSubArraySumLen\MinSubArraySumLenUt.cs" />
+    <Compile Include="MinSubArraySumLen\MinSubArraySumLenWithSlidingWindow.cs" />
+    <Compile Include="PowerOfNumber\PowerOfNumberUt.cs" />
+    <Compile Include="PowerOfNumber\PowerOfNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sqrt\BinarySearchSqrt.cs" />
+    <Compile Include="Sqrt\ISqrt.cs" />
+    <Compile Include="Sqrt\NewtonSqrt.cs" />
+    <Compile Include="Sqrt\SqrtUt.cs" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

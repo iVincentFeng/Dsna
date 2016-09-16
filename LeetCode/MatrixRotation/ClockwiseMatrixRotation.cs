@@ -2,7 +2,10 @@
 
 namespace Dsna.LeetCode.MatrixRotation
 {
-    [LeetCodeUrl("https://leetcode.com/problems/rotate-image/", false)]
+    /// <summary>
+    /// https://leetcode.com/problems/rotate-image/
+    /// </summary>
+    /// <typeparam name="TValue">Type of value, should implement IComparable</typeparam>
     public class ClockwiseMatrixRotation<TValue> : IRotateMatrix<TValue> where TValue : IComparable
     {
         public void RotateMatrix(TValue[,] matrix)
