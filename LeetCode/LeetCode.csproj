@@ -50,6 +50,7 @@
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotationUt.cs" />
     <Compile Include="MatrixRotation\IRotateMatrix.cs" />
     <Compile Include="MatrixRotation\ClockwiseMatrixRotationUt.cs" />
+    <Compile Include="MedianOfTwoSortedArrays.cs" />
     <Compile Include="MinSubArraySumLen\MinSubArraySumLenWithBacktracking.cs" />
     <Compile Include="MinSubArraySumLen\IGetMinSubArraySumLen.cs" />
     <Compile Include="MinSubArraySumLen\MinSubArraySumLenUt.cs" />
