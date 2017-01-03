@@ -43,6 +43,7 @@
     <Compile Include="ArrayRightRotation\ArrayRightRotation.cs" />
     <Compile Include="ArrayRightRotation\ArrayRightRotationUt.cs" />
     <Compile Include="ArrayRightRotation\IRightRotateArray.cs" />
+    <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="IntegerReversal\IntegerReversal.cs" />
     <Compile Include="IntegerReversal\IntegerReversalUt.cs" />
     <Compile Include="MatrixRotation\AntiClockwiseMatrixRotation.cs" />
@@ -58,6 +59,8 @@
     <Compile Include="PowerOfNumber\PowerOfNumberUt.cs" />
     <Compile Include="PowerOfNumber\PowerOfNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveDuplicatesFromSortedArray.cs" />
+    <Compile Include="RemoveElement.cs" />
     <Compile Include="Sqrt\BinarySearchSqrt.cs" />
     <Compile Include="Sqrt\ISqrt.cs" />
     <Compile Include="Sqrt\NewtonSqrt.cs" />
